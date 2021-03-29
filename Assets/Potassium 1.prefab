@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8012403668808151404}
   - component: {fileID: 4647610118996407699}
   - component: {fileID: 6918840583118319867}
+  - component: {fileID: 6598012852080443546}
   m_Layer: 0
   m_Name: Sphere (1)
   m_TagString: Potassium
@@ -91,6 +92,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6598012852080443546
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4254921849301585236}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 62
+  m_CollisionDetection: 0
 --- !u!1 &4318040853494514369
 GameObject:
   m_ObjectHideFlags: 0
@@ -103,6 +120,7 @@ GameObject:
   - component: {fileID: 1377596243074749967}
   - component: {fileID: 2008185277861420771}
   - component: {fileID: 4966833525534445222}
+  - component: {fileID: 5294852469483426444}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Potassium
@@ -182,6 +200,22 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &5294852469483426444
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4318040853494514369}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 118
+  m_CollisionDetection: 0
 --- !u!1 &4336703852869489521
 GameObject:
   m_ObjectHideFlags: 0
@@ -274,6 +308,7 @@ GameObject:
   - component: {fileID: 8152034993449813210}
   - component: {fileID: 46486811836761577}
   - component: {fileID: 6482309590356133078}
+  - component: {fileID: 6819867963032300948}
   m_Layer: 0
   m_Name: Sphere (2)
   m_TagString: Potassium
@@ -353,3 +388,19 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &6819867963032300948
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5710773669171137491}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0

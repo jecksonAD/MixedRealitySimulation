@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="J" size="5.000000 3.804348" />
-    <ImageTarget name="ACEQ" size="5.000000 3.781818" />
-    <ImageTarget name="IMAGE" size="5.000000 6.658416" />
-    <ImageTarget name="ace" size="5.000000 6.683168" />
-    <ImageTarget name="ACE8" size="5.000000 6.811224" />
+    <ImageTarget name="Pottasium" size="5.000000 2.689295" />
+    <ImageTarget name="FIRE" size="5.000000 5.852273" />
+    <ImageTarget name="Cotton" size="5.000000 3.992248" />
+    <ImageTarget name="TUBE" size="5.000000 4.951923" />
+    <ImageTarget name="METAL" size="5.000000 4.975845" />
   </Tracking>
 </QCARConfig>
