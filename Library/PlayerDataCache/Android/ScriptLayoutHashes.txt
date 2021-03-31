@@ -2,7 +2,7 @@ Android
 PlayerPath?
 E:/Unity/Testing18/MetalExperiment.apk
 SceneListBegin?
-Assets/Scenes/SampleScene.unity
+Assets/Scenes/MAIN.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
