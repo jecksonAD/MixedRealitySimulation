@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Point_1 : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class Point_1 : MonoBehaviour
     
     public GameObject parentObject;
     public GameObject Point_2;
+
+    
     
     Vector3 Test;
     bool MetalSpawn;
@@ -25,6 +28,7 @@ public class Point_1 : MonoBehaviour
     void Start()
     {
         m_Collider = GetComponent<Collider>();
+        
         Step_1 = false;
         p1 = 0;
 

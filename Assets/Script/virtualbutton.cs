@@ -9,6 +9,7 @@ using UnityEngine.SceneManagement;
 
 public class virtualbutton : MonoBehaviour,IVirtualButtonEventHandler
 {
+    public GameObject floatingText;
     public GameObject vrbtn;
     public GameObject Test;
     Scene scene;
@@ -22,7 +23,19 @@ public class virtualbutton : MonoBehaviour,IVirtualButtonEventHandler
         // button.RegisterEventHandler(this);
       scene = SceneManager.GetActiveScene(); 
     }
+    void update()
+       
+    {
+        if(floatingText)
+        {
+            showfloatingtext();
+        }
+    }
 
+    void showfloatingtext()
+    {
+        Instantiate(floatingText, transform.position, Quaternion.identity, transform);
+    }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
         SceneManager.LoadScene(scene.name);

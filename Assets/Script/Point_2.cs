@@ -5,6 +5,7 @@ using UnityEngine;
 public class Point_2 : MonoBehaviour
 {
     public static bool Step_2;
+    
 
     public static bool Obj_1;
     public static bool Obj_2;

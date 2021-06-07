@@ -8,10 +8,12 @@ public class MetalBehaviour : MonoBehaviour
     public GameObject Point_3;
     bool x;
     bool y;
+    public static bool WrongStep;
     
     // Start is called before the first frame update
     void Start()
     {
+        WrongStep = false;
         Point_3.SetActive(false);
         Debug.Log("init");
        
@@ -19,11 +21,12 @@ public class MetalBehaviour : MonoBehaviour
     void Update()
     {
         y = Global.Bomb;
-        if (this.gameObject.tag=="Potassium_"&&x == true && y==true)
+        if (this.gameObject.tag=="Potassium_"&& x == true && y==true)
 
         {
           
             Point_3.SetActive(true);
+            WrongStep = true;
 
         }
         if(this.gameObject.tag == "Metal_" && x ==true)

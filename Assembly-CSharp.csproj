@@ -64,6 +64,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Book\Example\scripts\AutoFlip.cs" />
+    <Compile Include="Assets\Book\Example\scripts\Book.cs" />
+    <Compile Include="Assets\Book\Example\scripts\LeanFinger.cs" />
+    <Compile Include="Assets\Book\Example\scripts\LeanTouch.cs" />
+    <Compile Include="Assets\Book\Example\scripts\zoom.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -72,13 +77,24 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
     <Compile Include="Assets\EffectExamples\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\MadeByProfessorOakie\SimpleSonarShader\Example\SimpleSonarShader_ExampleCollision.cs" />
+    <Compile Include="Assets\MadeByProfessorOakie\SimpleSonarShader\Example\SimpleSonarShader_ExampleConfigureChildren.cs" />
+    <Compile Include="Assets\MadeByProfessorOakie\SimpleSonarShader\SimpleSonarShader_Object.cs" />
+    <Compile Include="Assets\MadeByProfessorOakie\SimpleSonarShader\SimpleSonarShader_Parent.cs" />
+    <Compile Include="Assets\Script\ChangeContentGuideBook.cs" />
     <Compile Include="Assets\Script\CottonCollider.cs" />
     <Compile Include="Assets\Script\Global.cs" />
+    <Compile Include="Assets\Script\GuideBook.cs" />
+    <Compile Include="Assets\Script\Highlight.cs" />
     <Compile Include="Assets\Script\MaterialCollider.cs" />
     <Compile Include="Assets\Script\MetalBehaviour.cs" />
+    <Compile Include="Assets\Script\ObjectivesText.cs" />
+    <Compile Include="Assets\Script\ObjectivesTEXTcHANGE.cs" />
     <Compile Include="Assets\Script\Point_1.cs" />
     <Compile Include="Assets\Script\Point_2.cs" />
     <Compile Include="Assets\Script\Point_3.cs" />
+    <Compile Include="Assets\Script\raycast.cs" />
+    <Compile Include="Assets\Script\TubeTrigger.cs" />
     <Compile Include="Assets\Script\virtualbutton.cs" />
     <None Include="Assets\Vuforia\Shaders\ColoredLines.shader" />
     <None Include="Assets\Vuforia\Shaders\CameraDiffuse.shader" />
@@ -86,6 +102,7 @@
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
     <None Include="Assets\Vuforia\Shaders\VertexLitWithZ.shader" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
+    <None Include="Assets\MadeByProfessorOakie\SimpleSonarShader\Readme.txt" />
     <None Include="Assets\Vuforia\Shaders\VuforiaVB_YUVNV12_YUVNV21.cginc" />
     <None Include="Assets\Vuforia\Shaders\VideoBackground.shader" />
     <None Include="Assets\Vuforia\Shaders\OutlineOpaque.shader" />
@@ -116,6 +133,7 @@
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_Sprite.shader" />
     <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\MadeByProfessorOakie\SimpleSonarShader\SimpleSonarShader.shader" />
     <Reference Include="UnityEngine.Purchasing">
       <HintPath>C:/Users/60194/Documents/GitHub/MixedRealitySimulation/Library/ScriptAssemblies/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
