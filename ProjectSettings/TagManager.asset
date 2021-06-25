@@ -11,6 +11,7 @@ TagManager:
   - Fire
   - Metal_
   - Potassium_
+  - Glove_
   layers:
   - Default
   - TransparentFX

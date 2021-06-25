@@ -25,4 +25,8 @@ public class TubeTrigger : MonoBehaviour
             Tube.SetActive(true);
         }
     }
+    public void click()
+    {
+        Debug.Log("Click");
+    }
 }

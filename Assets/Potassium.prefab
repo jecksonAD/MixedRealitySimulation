@@ -155,6 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Point_3: {fileID: 730340198443336235}
+  explosion: {fileID: 7089912929874332538, guid: 450f687d022ee8144a177030c65bbdfd,
+    type: 3}
 --- !u!114 &2707141238956395399
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,13 +164,17 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1518756101281959584}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a97c5bca6e5be24c95ca53046836fb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   hurtlevel: 0
   HurtScreen: {fileID: 0}
+  TipsTxt: []
+  fireb: {fileID: 0}
+  ItemPut: {fileID: 0}
+  ItemSound: {fileID: 0}
 --- !u!1001 &7359638266383473351
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class GuideBook : MonoBehaviour
 
    // public GameObject vbBtnObj;
    private Renderer GuideRender;
+   
     public GameObject GBook;
     public Texture Gtexture;
     public Material G_Material;

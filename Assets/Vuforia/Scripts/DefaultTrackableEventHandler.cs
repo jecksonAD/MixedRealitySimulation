@@ -22,6 +22,7 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
     protected TrackableBehaviour mTrackableBehaviour;
     protected TrackableBehaviour.Status m_PreviousStatus;
     protected TrackableBehaviour.Status m_NewStatus;
+    public static bool Fire=false;
 
     #endregion // PROTECTED_MEMBER_VARIABLES
 
@@ -32,6 +33,9 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
         mTrackableBehaviour = GetComponent<TrackableBehaviour>();
         if (mTrackableBehaviour)
             mTrackableBehaviour.RegisterTrackableEventHandler(this);
+
+     
+       
     }
 
     protected virtual void OnDestroy()
@@ -64,11 +68,26 @@ public class DefaultTrackableEventHandler : MonoBehaviour, ITrackableEventHandle
             newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
         {
             OnTrackingFound();
+
+
+            if(mTrackableBehaviour.TrackableName=="fire_1")
+            {
+                Fire = true;
+             
+            }
+
         }
         else if (previousStatus == TrackableBehaviour.Status.TRACKED &&
                  newStatus == TrackableBehaviour.Status.NO_POSE)
         {
             OnTrackingLost();
+
+
+            if (mTrackableBehaviour.TrackableName == "fire_1")
+            {
+                Fire = false;
+               
+            }
         }
         else
         {

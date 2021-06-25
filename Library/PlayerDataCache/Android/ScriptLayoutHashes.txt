@@ -3,6 +3,7 @@ PlayerPath?
 E:/Unity/Testing18/MetalExperiment.apk
 SceneListBegin?
 Assets/Scenes/MAIN.unity
+Assets/Scenes/Level_2.unity
 SceneListEnd?
 71bb6a6b6c8f052f948db64c7dd3ca4f VuforiaScripts.dll:.BoundingBoxRenderer
 3c08375166df118bd1801438fc36b92f Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
@@ -19,9 +20,11 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+8b9f299cdff30848bf2015c4e0d9e0f7 Assembly-CSharp.dll:.PlayerStats
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.CameraFocus
 e7a73f5f78ba6445195ec23b74a1ce2d Unity.TextMeshPro.dll:TMPro.TMP_ScrollbarEventHandler
 f0e1cdec5b76d37985df89e419a4f735 Assembly-CSharp.dll:.ObjectivesTEXTcHANGE
-debee65d8276d108e0767f69cfd5cc57 Assembly-CSharp.dll:.MetalBehaviour
+a0ccf5677ddecfc1fb45075b0368568d Assembly-CSharp.dll:.MetalBehaviour
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
 507174d46dacbc5fe45e28485db5dd1e UnityEngine.UI.dll:UnityEngine.UI.Button
@@ -125,7 +128,8 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 70510b31c2833ab58b92ea10706024e4 Assembly-CSharp.dll:.virtualbutton
 bb8814741d7085ebb3d19a1a11769619 Assembly-CSharp.dll:.DecalDestroyer
 4b6df0f1addcd3aa7bf69a341f264569 Assembly-CSharp.dll:.AutoFlip
-007499565fff637fb8e719a4b8752075 Assembly-CSharp.dll:.GuideBook
+45cf43722275c3cef3a3e5c2125c8d6a Assembly-CSharp.dll:.HealthBarController
+95fd48796684b45c04d78d20421aca6c Assembly-CSharp.dll:.GuideBook
 b8a5e8091ab0b8861d2add371082c5e0 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -197,10 +201,11 @@ fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 d443ee681cb9bb820f67288e059982e3 Assembly-CSharp.dll:.SimpleSonarShader_ExampleConfigureChildren
 8429f5e2e74458d387d20325476dffbf Assembly-CSharp.dll:.GunAim
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
-26a755a6ac5eb8ba782a53d946f1f367 Assembly-CSharp.dll:.Point_1
+3d82ed27f099f4a79434d5eab04ddb6f Assembly-CSharp.dll:.Point_1
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.zoom
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
+c2f45bc1379e309b054bf091d6dbaaa1 Assembly-CSharp.dll:.Glove
 59c33681cff6f4087fdd75a5a2f135b7 Assembly-CSharp.dll:Lean.LeanTouch
 777a8011340486e89688bc9b11ec37a3 Assembly-CSharp.dll:.Book
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
@@ -236,7 +241,7 @@ f0e1cdec5b76d37985df89e419a4f735 Assembly-CSharp.dll:.TubeTrigger
 fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioRoom
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSoundfieldExtension
 5b0391b7e3d9ea9db6c0a8fbd0ca23f6 UnityEngine.GoogleAudioSpatializer.dll:UnityEngine.Experimental.Audio.Google.GvrAudioSourceExtension
-f54a453ba51acafce75536365858601e Assembly-CSharp.dll:.Point_2
+4ebd7d52c3e9a7a137e660995fe70207 Assembly-CSharp.dll:.Point_2
 dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandler
 58e68364412c67eae2bdb4954be2dcc2 Assembly-CSharp.dll:.Readme
 3b760e6526e13f7504f59e210145899a Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
@@ -244,12 +249,12 @@ dff7a11839abb9fb7222280cf3c0a95a VuforiaScripts.dll:.DefaultModelRecoEventHandle
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SimpleSonarShader_ExampleCollision
 507174d46dacbc5fe45e28485db5dd1e Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
-b95f21d8e24d6ba5acc077281db48369 Assembly-CSharp.dll:.Global
+0032a69b0e3e11ad7bafb843900b5f77 Assembly-CSharp.dll:.Global
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 df434544c9f7b33d1cc7e635b180d279 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
-e6c645a749181c1c21df99e0a567f1d8 Assembly-CSharp.dll:.raycast
-4232d3372f987f46fa8fde57d3375114 Assembly-CSharp.dll:.Point_3
+8c9c949891cffb64c0783799f69a1c27 Assembly-CSharp.dll:.raycast
+c3b4bcff87936f51e23d95f206a4392f Assembly-CSharp.dll:.Point_3
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
@@ -286,6 +291,7 @@ fbbf64dcbe0662e3eda1dec45ea8f895 Vuforia.UnityExtensions.dll:Vuforia.WireframeBe
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.WireframeTrackableEventHandler
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Highlight
 4003084538e88e82f4dbdcaf54f42725 Assembly-CSharp.dll:.ObjectivesText
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.HealthBarHUDTester
 0077fc8e4fbae67f80e80ebd534de5a0 Vuforia.UnityExtensions.dll:Vuforia.AnchorBehaviour
 ff1cfd768b207053e073f8002f937b81 Vuforia.UnityExtensions.dll:Vuforia.AnchorInputListenerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Vuforia.UnityExtensions.dll:Vuforia.BackgroundPlaneBehaviour

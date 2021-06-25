@@ -9,13 +9,15 @@ public class Point_3 : MonoBehaviour
     public static bool Obj_1;
     public static bool Obj_2;
     public static bool Obj_3;
-
+    public AudioSource ItemPut;
     public static int p3;
+    public AudioClip impact;
     public GameObject Material_1;
     public GameObject Material_2;
+    public GameObject Material_2_level2;
     public GameObject Material_3;
     public GameObject parentObject;
-
+    public static bool Put;
     //public GameObject Point_3;
 
     Vector3 Test;
@@ -56,6 +58,7 @@ public class Point_3 : MonoBehaviour
 
         if (col.gameObject.tag == "Potassium" && Obj_1 == false)
         {
+            ItemPut.PlayOneShot(impact, 0.7f);
             if (MetalSpawn)
             {
                 for (int i = 0; i < 3; i++)
@@ -69,12 +72,13 @@ public class Point_3 : MonoBehaviour
                 p3 = 1;
             }
 
-
+          
 
         }
 
         if (col.gameObject.tag == "Metal" && Obj_2 == false)
         {
+            ItemPut.PlayOneShot(impact, 0.7f);
             if (MetalSpawn)
             {
                 for (int i = 0; i < 3; i++)
@@ -89,11 +93,12 @@ public class Point_3 : MonoBehaviour
             }
 
 
-
+          
         }
 
         if (col.gameObject.tag == "Cotton" && Obj_3 == false)
         {
+            ItemPut.PlayOneShot(impact, 0.7f);
             if (MetalSpawn)
             {
                 GameObject x = Instantiate(Material_3, transform.position, transform.rotation);
@@ -102,7 +107,7 @@ public class Point_3 : MonoBehaviour
                 Step_2 = true;
                 p3 = 3;
             }
-
+        
         }
 
     }
