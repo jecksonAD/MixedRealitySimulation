@@ -1,23 +1,27 @@
-# Mixed Reality Simulation Experiment Based Reactivity of Metal Experiment 
+# MIXED REALITY SIMULATION GAME 
 
-# Background 
 
-Due to Covid-19 Pandemic, Malaysia been force to apply Online-Learning where student cannot carry on those experiment.
-To encounter these problem, Simulation will be great solution where it student will be understand even it online learning.
-Compare by viewing the reaction of metals through video, it will be better if student try the experiment by they own. 
+## Background
+Due to Covid-19 Pandemic, Malaysia been forced to adopt Online-Learning where student unable continue on such experiment. To address these issues, simulation will be an excellent option, since students will be able to comprehend even while studying online.When comparing the response of metals via film, it is preferable for students to do their own experiment.
 
-# What was the Solution ? 
-This Project is a Simulation where player will simulate the scene while in lab which player will carry on science experiment using Mixed Reality Technology 
+## Objectives 
+-	To identify Mixed Reality Game component in the metal reactivity experiment. 
+-	To develop Mixed Reality game simulation for the metal reactivity experiment. 
+-	To evaluate student’s understanding on metal reactivity experiment.
 
 # Technology 
--Android Devices 1.4 above with camera function 
--Google Cardboard or any VR Phone Devices. 
+- GOOGLE CARDBOARD 
+- VUFORIA 
+- UNITY3D
 
 # User Guide 
--Download the apk inside the repo and install into the android device. 
--Print out the marker provided.
--Put android device into the VR devices.
--Adjust the lens to suit your vission.
+- Download the apk inside the repo and install into the android device. 
+- Print out the marker provided.
+- Put android device into the VR devices.
+- Adjust the lens to suit your vission.
 
+## Video Link
+- [Game Play]
 
-
+[Game Play]:https://youtu.be/XqhAeHKsAbY	
+   
